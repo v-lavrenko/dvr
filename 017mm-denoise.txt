@@ -1,0 +1,56 @@
+  2661	16:10	cp prototype-6-Ycell.avi x.avi
+  2676	16:16	./denoise.py -in x.avi -train 200 -mask -smooth 1 -thresh 3 -scale 1 -blur 31 -amp 7 -show -both -2x
+
+  2679	16:25	cp prototype-7-02A-Bcell-90deg.avi d.avi
+  2710	16:55	./denoise.py -in d.avi -train 75 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -amp 5 -show -both -2x
+
+  2680	16:25	cp prototype-7-02A-GT1-Ycell-90deg.avi c.avi
+  2681	16:25	cp prototype-7-0.2A-Ycell-91deg.avi b.avi
+  2682	16:25	cp prototype-7-0.2A-Ycell.avi a.avi
+  
+  2697	16:40	./denoise.py -in c.avi -train 400 -mask -smooth 1 -thresh 2.5 -scale 2 -blur 11 -amp 5 -show -both -2x
+  2698	16:41	./denoise.py -in c.avi -train 400 -mask -smooth 1 -thresh 2.5 -scale 2 -blur 21 -amp 10 -show -both -2x
+  2699	16:42	./denoise.py -in c.avi -train 400 -repl -smooth 1 -thresh 2.5 -scale 2 -blur 21 -show -both -2x
+  2700	16:43	./denoise.py -in c.avi -train 400 -repl -smooth 1 -thresh 1.5 -scale 0 -blur 21 -show -both -2x
+  2701	16:44	./denoise.py -in c.avi -train 400 -repl -smooth 1 -thresh 1 -scale 0 -blur 31 -show -both -2x
+  2702	16:49	./denoise.py -in c.avi -train 400 -mask -smooth 1 -thresh 2.5 -scale 0 -blur 21 -show -both -2x
+  2703	16:49	./denoise.py -in c.avi -train 400 -mask -smooth 1 -thresh 2 -scale 0 -blur 11 -show -both -2x
+  2704	16:50	./denoise.py -in c.avi -train 400 -mask -smooth 1 -thresh 1.5 -scale 0 -blur 11 -show -both -2x
+  2705	16:51	./denoise.py -in c.avi -train 400 -mask -smooth 1 -thresh 1 -scale 0 -blur 31 -show -both -2x
+  2706	16:52	./denoise.py -in c.avi -train 400 -mask -smooth 1 -thresh 1 -scale 0 -blur 21 -show -both -2x
+  2707	16:52	./denoise.py -in c.avi -train 400 -mask -smooth 1 -thresh 1 -scale 1 -blur 21 -show -both -2x
+  2708	16:54	./denoise.py -in c.avi -train 400 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -show -both -2x
+  2711	16:56	./denoise.py -in c.avi -train 400 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -amp 5 -show -both -2x
+  2712	16:57	./denoise.py -in c.avi -train 400 -mask -smooth 100 -thresh 1 -scale 2 -blur 21 -amp 5 -show -both -2x
+
+  2725	17:31	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -show -both -2x
+  2726	17:31	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -abs -show -both -2x
+  2727	17:32	./denoise.py -in b.avi -train 200 -repl -smooth 1 -thresh 1 -scale 0 -blur 21 -abs -show -both -2x
+  2728	17:33	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -amp 2 -abs -show -both -2x
+  2729	17:35	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -amp 2 -abs -gray -show -both -2x
+  2730	17:35	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -amp 2 -abs -gray -show -both -4x
+  2731	17:51	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -amp 2 -gray -show -both -4x
+  2732	17:51	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -gray -show -both -4x
+  2733	17:51	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -gray -show -both -2x
+  2734	17:52	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -gray -heat -show -both -2x
+  2735	17:54	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -gray -heat -show -both -2x
+  2736	17:54	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -heat -show -both -2x
+  2737	17:55	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -heat -show -both -2x
+  2738	17:57	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -heat -show -both -1x
+  2739	17:58	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -heat -show -both -1x
+  2740	17:58	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -heat -show -both -1x
+  2741	17:58	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -heat -show -both -1x
+  2742	17:59	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -heat -show -both -1x
+  2743	18:00	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 1 -scale 2 -blur 21 -heat -show -both -1x
+  2744	18:00	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 0 -scale 2 -blur 21 -heat -show -both -1x
+  2745	18:00	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 0 -scale 2 -blur 21 -heat -show -both -1x
+  2746	18:01	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 0 -scale 1 -blur 21 -heat -show -both -1x
+  2747	18:02	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 0 -scale 1 -blur 21 -heat -show -both -1x
+  2748	18:02	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 0 -scale 1 -blur 21 -heat -amp 2 -show -both -1x
+  2749	18:03	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 0 -scale 1 -blur 21 -heat -show -both -1x
+  2750	18:04	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 0 -scale 0.1 -blur 11 -heat -show -both -1x
+  2751	18:04	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 0 -scale 0.5 -blur 11 -heat -show -both -1x
+  2752	18:05	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 0 -scale 1 -blur 31 -heat -show -both -1x
+  2753	18:05	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 0.5 -scale 1 -blur 31 -heat -show -both -1x
+  2754	18:06	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 0 -scale 1 -blur 51 -heat -show -both -1x
+  2755	18:06	./denoise.py -in b.avi -train 200 -mask -smooth 1 -thresh 0 -scale 1 -blur 51 -heat -show -both -1x
