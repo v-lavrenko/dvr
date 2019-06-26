@@ -1,0 +1,4 @@
+  2772	17:35	./denoise.py -in x.avi -train 65 -mask -smooth 1 -thresh 2.0 -scale 0.5 -blur 11 -amp 10 -show -save -o y1.avi
+  2806	17:48	./denoise.py -in x.avi -train 65 -4x -mask -smooth 1 -thresh 3 -scale 1 -blur 31 -amp 7 -show -save -o y2.avi
+  2812	17:50	./denoise.py -in x.avi -train 65 -4x -mask -smooth 1 -thresh 1.5 -scale 0 -blur 11 -amp 5 -o y3.avi -save
+  2820	17:53	./denoise.py -in x.avi -train 65 -4x -mask -smooth 1 -thresh 2.5 -scale 2 -blur 11 -amp 5 -o y4.avi -save
